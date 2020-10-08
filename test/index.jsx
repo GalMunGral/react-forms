@@ -1,5 +1,6 @@
 import React from "react";
 import InputTest from "./InputTest";
+import InvertedInputTest from "./InvertedInputTest";
 import TextAreaTest from "./TextAreaTest";
 import CheckboxTest from "./CheckboxTest";
 import RadioTest from "./RadioTest";
@@ -17,6 +18,8 @@ function Test() {
       <RadioTest />
       <hr />
       <SelectTest />
+      <hr />
+      <InvertedInputTest />
     </>
   );
 }
