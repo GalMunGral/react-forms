@@ -7,7 +7,7 @@ Input components with Vue-style two-way data bindings
 ```jsx
 import { Checkbox, useModel } from 'react-forms'
 function Example() {
-  const checkedNames = useModel;
+  const checkedNames = useModel(null);
   return (
     <Checkbox value={{ name: "Jack" }} model={checkedNames} />
     <label htmlFor="jack">Jack</label>
