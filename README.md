@@ -1,6 +1,6 @@
 # React Forms
 
-Input components with Vue-style two-way data bindings
+Input components with Vue/Angular-style two-way data binding
 
 ## Examples
 
